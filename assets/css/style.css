@@ -72,6 +72,9 @@ a {
 .line-clamp.line2 {
     --line-clamp: 2;
 }
+.line-clamp.line3 {
+    --line-clamp: 3;
+}
 
 .breakall {
     word-break: break-all;
@@ -459,4 +462,72 @@ a {
     font-style: italic;
     font-weight: 400;
     line-height: 1.54;
+}
+
+/* =============Features========== */
+
+.feature {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.feature .body {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 130px;
+}
+
+.feature .body .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.feature .body .images img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.feature .body .images .lower {
+    margin-top: 34px;
+}
+
+.feature .content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 41%;
+}
+
+.feature .content .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.feature .content .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    border-radius: 26px;
+    background: #ffb900;
+    color: #fff;
+}
+
+.feature-2 {
+    margin-top: 70px;
+}
+
+.feature-2 .body {
+    flex-direction: row-reverse;
+}
+
+.feature-2 .content {
+    width: 49%;
+}
+
+.feature-2 .body .images img {
+    width: 470px;
 }
